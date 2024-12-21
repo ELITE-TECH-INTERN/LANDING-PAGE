@@ -1,0 +1,230 @@
+  @font-face {
+    font-family: 'CustomFont';
+    src: 
+         url('../assets/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('../assets/fonts/Roboto-Thin.ttf') format('truetype'),
+         url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+  body {
+    font-family: 'CustomFont', Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    padding: 0 15px;
+
+  }
+
+  header {
+    background-color: #0e444d;
+    color: white;
+    padding: 1rem 0;
+
+  } 
+  /* .landing-image{
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+  } */
+  .landing-image {
+    height: 400px;
+    width: 90%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .logo{
+    height: 58px;
+    float: left;
+    margin-top: -22px;
+    background-color: white;
+    padding: 6px;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: rgb(249, 244, 244);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+
+  main {
+    min-height: 80vh;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+  }
+  .main{
+    text-align: center;
+  }
+
+article {
+  background-color: #fafafa; 
+  border: 1px solid #ddd;   
+  border-radius: 8px;       
+  padding: -20px;          
+  margin: 0px 60px 10px 90px;          
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+article p {
+  font-size: 1rem;          
+  color: #333;              
+  line-height: 1.6;         
+  margin: 10px 0;          
+}
+
+
+article p:first-of-type {
+  font-weight: bold;       
+}
+
+article p:last-of-type {
+  font-style: italic;       
+}
+.feature{
+  margin-top: 50px;
+}
+
+.feature1,.feature2{
+    height: 390px;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .feature,article{
+    display: flex;
+    flex-direction: row;
+    /* gap: 2px; */
+  }
+  .mission{
+    height: 60px;
+  }
+  
+ figcaption{
+  text-align: justify;
+ }
+  form {
+    margin: auto;
+    width: 50%;
+  }
+  
+  fieldset {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  legend {
+    color: #007bff;
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0995698b;
+  }
+  
+
+  section h2 {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  section p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #616835c4;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  @media (min-width: 768px) {
+    main {
+      padding: 15px;
+    }
+  
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+  
+    legend {
+      font-size: 1.2rem;
+    }
+  
+    label, input, textarea, button {
+      font-size: 0.9rem;
+    }
+  }
+   
+
+
+  
